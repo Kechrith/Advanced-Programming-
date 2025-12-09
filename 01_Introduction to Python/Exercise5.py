@@ -7,7 +7,7 @@ the message “Well done, you took [count] attempts”. """
 computer_num = 50 
 count = 0
 
-#U Ask User to Input number 
+# Ask User to Input number 
 guess = int(input("Enter a number: "))
 count += 1
 

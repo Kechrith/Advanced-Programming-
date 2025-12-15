@@ -10,4 +10,4 @@ if color.lower() == "red":
 
 # If the color is not red, display this message including the user's color
 else: 
-    print("I dont like", color, "I prefer")
+    print("I dont like", color, "I prefer red")

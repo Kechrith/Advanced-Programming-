@@ -1,4 +1,6 @@
-#A program ask the user to input weight and height to calculate BMI
+"""Write a program to display Body mass index (BMI). BMI is a measure of health based on weight. It 
+can be calculated by taking your weight in kilograms and dividing it by the square of your height in 
+meters. The interpretation of BMI for people 16 years and older is as follows: """
 
 #input weight and height 
 w = eval(input("Enter the weigh in kilogram: "))

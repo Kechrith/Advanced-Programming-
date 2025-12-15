@@ -1,4 +1,4 @@
-#A program ask u to calculate 1 − 2 + 3 − 4 + … + 29 − 30
+"""A program ask u to calculate 1 − 2 + 3 − 4 + … + 29 − 30"""
 
 #store the result
 total = 0

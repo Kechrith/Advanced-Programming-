@@ -1,18 +1,17 @@
-# group 9 
-# Write a program to store a integers and no duplicate 
+# Group 9
+# write a program to store the user input and stop when user enter 0
+number = []
 
-# create 2 list
-list1= []
-list2 = []
-
+# Store the number for user
 while True:
-    user = input("Please Enter number (Press 0 to stop): ").strip()
+        num = int(input("Enter Number (0 to stop):"))
 
-    # Condition
-    if user == '0':
-        break
+        #Stop when number 0
+        if num == 0:
+            break
+
+        #filter duplicate number
+        if num not in number:
+            number.append(num)
     
-    elif 
-        list1.append(user)
-
-    print(list1)
+print(number)   

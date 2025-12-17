@@ -1,5 +1,7 @@
-# Group 9
-# write a program to store the user input and stop when user enter 0
+"""Group 9
+Write  a  program  that  first  will  read  integers  from  the  user  into  a  list  until  the  user  enters  0.  Then, 
+display the list that contains no duplicate. You are allowed have only one list for this program. Hint: 
+store only the new entered integer; if the entered integer already existed in the list, do not store it."""
 number = []
 
 # Store the number for user

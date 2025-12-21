@@ -1,19 +1,32 @@
-"""Group 9
-Write  a  program  that  first  will  read  integers  from  the  user  into  a  list  until  the  user  enters  0.  Then, 
-display the list that contains no duplicate. You are allowed have only one list for this program. Hint: 
-store only the new entered integer; if the entered integer already existed in the list, do not store it."""
-number = []
+# Group 9
+"""
+write a program that store name of people that invited to the party
+"""
 
-# Store the number for user
-while True:
-        num = int(input("Enter Number (0 to stop):"))
+# Store their names in the list
+name_list = []
 
-        #Stop when number 0
-        if num == 0:
-            break
-
-        #filter duplicate number
-        if num not in number:
-            number.append(num)
+# check the duplicate 
+name_initial = input("Enter three names of people you want to invite (using comma): ").strip()
+for name in name_initial.split(','):
+    cleaned_name = name.strip()
+    if cleaned_name and cleaned_name not in name_list:
+        name_list.append(cleaned_name)
     
-print(number)   
+while True:
+    add_name = input("Would you want to add other people to join? Yes/NO: ").lower()
+
+    if add_name == 'no':
+        break
+    elif add_name == 'yes':
+        new_name = input ("Enter people you want to invite: ").strip()
+        if new_name and new_name not in name_list:
+            name_list.append(new_name)
+    else:
+        print("Please Enter Yes or No!!")
+    
+# Display The Names
+print('=' * 35)
+print("The Name that You invited to the party:")
+for index, name in enumerate(name_list, 1):
+    print(f"{index}.{name.strip()}")

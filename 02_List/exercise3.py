@@ -1,4 +1,5 @@
-# write a program that reads some integers between 1 and 100 separeated by a space 
+"""Write a program that reads some integers between 1 and 100 separated by a comma in one line, and 
+counts the occurrences of each. """
 num_list = []
 user_input = input("Enter integers between 1 and 100 (seperated by a space): ")
 

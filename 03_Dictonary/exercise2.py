@@ -1,5 +1,5 @@
-# Group 9
-# Write a program to transform the dictionary so that it group data by projects instead:
+"""
+Write a program to transform the dictionary so that it group data by projects instead:"""
 
 # Dictionary 
 students = {

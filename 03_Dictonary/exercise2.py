@@ -14,7 +14,7 @@ for student_name, student_subjects in students.items():
     for subject, grade in student_subjects.items():
         if subject not in subjects:
             subjects[subject] = {}
-        else:
-            subjects[subject][student_name] = grade
+        
+        subjects[subject][student_name] = grade
 
 print(subjects)

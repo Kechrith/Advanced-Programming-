@@ -1,3 +1,4 @@
+#Group9
 '''Write  a  program  that  plays  the  popular  scissor-rock-paper  game.  (A 
 scissor  can  cut  a  paper,  a  rock  can  knock  a  scissor,  and  a  paper  can  wrap  a  rock.)  The  program 
 randomly generates scissor, rock, or paper. The program asks the user to enter scissor, rock, or paper 

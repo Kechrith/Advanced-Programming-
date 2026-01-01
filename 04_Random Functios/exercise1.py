@@ -1,5 +1,6 @@
-#Group9
-'''Randomly  generate  a  number  between  1  and  6.  Ask  the  user  to  pick  a  number.  If  the  user  guess 
+'''
+Group 9
+Randomly  generate  a  number  between  1  and  6.  Ask  the  user  to  pick  a  number.  If  the  user  guess 
 correctly,  display  the  message  “Well  done”,  otherwise,  display  “Incorrect”,  and  allow  the  user  to 
 enter  a  second  guess.  If  the  user  guess  correctly  on  the  second  guess,  display  “Correct”,  otherwise 
 display “You lose. The correct number is [random_number]”.'''

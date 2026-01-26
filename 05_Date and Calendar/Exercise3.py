@@ -1,7 +1,6 @@
 # Ask the user for a month and year, and display all dates that are Mondays.
 
 import calendar
-import datetime
 
 # Ask the user to enter the year 
 year = int(input("Please enter the year : "))

@@ -1,4 +1,7 @@
-# 1. Calculate how many days remain until the next new year (January 1, 2027)
+"""
+Group 9
+Calculate how many days remain until the next new year (January 1, 2027)
+"""
 
 import datetime
 

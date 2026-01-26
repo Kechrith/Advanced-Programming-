@@ -28,3 +28,4 @@ while current_date <= end_date:
 
 # Display total working days
 print("Total work:", work_day)
+

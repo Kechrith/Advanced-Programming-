@@ -1,4 +1,6 @@
-# Ask the user for a month and year, and display all dates that are Mondays.
+"""
+Ask the user for a month and year, and display all dates that are Mondays.
+"""
 
 import calendar
 

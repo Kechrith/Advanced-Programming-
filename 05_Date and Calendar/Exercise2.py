@@ -1,4 +1,6 @@
-#A program ask the use to enter a month and year to count saturday
+"""
+A program ask the use to enter a month and year to count saturday
+"""
 import calendar
 
 #ask user for input month and year

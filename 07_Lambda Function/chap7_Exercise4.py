@@ -1,6 +1,5 @@
-# Exercise 4
 """
-4. Concatenate corresponding items of two lists of strings. 
+Concatenate corresponding items of two lists of strings. 
 - Input: list1 = ["Hello", "Good"] and list2 = ["World", "Morning"] 
 - Output: ["Hello World", "Good Morning"]
 """

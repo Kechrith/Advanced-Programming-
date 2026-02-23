@@ -1,4 +1,9 @@
-# A program asks to check whether two words are anagrams or not
+"""
+(Anagram) Two words are anagrams if they contain the same letters in different orders, for example, 
+binary and brainy. Write a method called is_anagram that takes two strings and returns True if they 
+are anagrams, otherwise, returns False.
+"""
+
 def is_anagram(s1, s2):
     # Remove spaces and convert to lowercase (optional but useful)
     s1 = s1.replace(" ", "").lower()

@@ -1,4 +1,6 @@
-# 2. Calculate (2x)^2 for each number in a list
+"""
+Calculate (2x)^2 for each number in a list
+"""
 
 numbers = [1, 2, 3, 4]
 

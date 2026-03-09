@@ -6,7 +6,7 @@ and writes the results to a new CSV file with grades included.
 import csv
 
 # Open the input CSV file for reading
-with open("./Chapter8/Scores.csv", "r") as file:
+with open("Scores.csv", "r") as file:
     reader = csv.reader(file)
     next(reader)  # Skip the header row
 

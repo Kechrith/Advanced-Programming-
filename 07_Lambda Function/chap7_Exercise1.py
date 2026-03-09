@@ -1,4 +1,6 @@
-# 1. Calculate the area of a rectangle
+"""
+Calculate the area of a rectangle
+"""
 
 # Lambda function to calculate area
 area_rectangle = lambda length, width: length * width

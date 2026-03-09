@@ -1,5 +1,4 @@
 '''
-Exercise6:
 Compare corresponding items of two lists and return "list1" if the item from the list1 is larger, 
 otherwise return "list2". 
 '''

@@ -1,6 +1,8 @@
-# This program reads student scores from a CSV file, assigns grades based on scores,
-# and writes the results to a new CSV file with grades included.
-
+"""
+Group 9 
+his program reads student scores from a CSV file, assigns grades based on scores,
+and writes the results to a new CSV file with grades included.
+"""
 import csv
 
 # Open the input CSV file for reading

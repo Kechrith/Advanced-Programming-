@@ -1,5 +1,4 @@
 # Write a program to Calculator Program using OOP (Class and Object)
-
 # Define a class named Calculator
 class Calculator:
     
